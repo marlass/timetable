@@ -1,0 +1,1890 @@
+{
+    "year": "2016",
+    "semester": "5",
+    "university": "Wroclaw University of Technology",
+    "faculty": "WIZ",
+    "specialization": "Computer Science",
+    "language": "pl",
+    "lessons": [
+        {
+            "lesson": "INZ003559W",
+            "name": "Podstawy zarządzania",
+            "hours": 2
+        },
+        {
+            "lesson": "INZ003560L",
+            "name": "Informatyczne systemy sterowania",
+            "hours": 2
+        },
+        {
+            "lesson": "INZ003560P",
+            "name": "Informatyczne systemy sterowania",
+            "hours": 1
+        },
+        {
+            "lesson": "INZ003560W",
+            "name": "Informatyczne systemy sterowania",
+            "hours": 1
+        },
+        {
+            "lesson": "INZ003561L",
+            "name": "Projektowanie oprogramowania",
+            "hours": 2
+        },
+        {
+            "lesson": "INZ003561W",
+            "name": "Projektowanie oprogramowania",
+            "hours": 2
+        },
+        {
+            "lesson": "INZ005202W",
+            "name": "Programowanie aplikacji multimedialnych",
+            "hours": 2,
+            "module": "INZ003541BK"
+        },
+        {
+            "lesson": "INZ005232W",
+            "name": "Grafika komputerowa",
+            "hours": 2,
+            "module": "INZ003541BK"
+        },
+        {
+            "lesson": "INZ003541L",
+            "name": "Techniki przetwarzania mediów",
+            "hours": 2,
+            "module": "INZ003541BK"
+        },
+        {
+            "lesson": "INZ005232L",
+            "name": "Grafika komputerowa",
+            "hours": 2,
+            "module": "INZ003541BK"
+        },
+        {
+            "lesson": "INZ005202L",
+            "name": "Programowanie aplikacji multimedialnych",
+            "hours": 2,
+            "module": "INZ003541BK"
+        },
+        {
+            "lesson": "INZ003541W",
+            "name": "Techniki przetwarzania mediów",
+            "hours": 2,
+            "module": "INZ003541BK"
+        },
+        {
+            "lesson": "INZ005201W",
+            "name": "Wytwarzanie oprogramowania w środowisku .NET",
+            "hours": 2,
+            "module": "INZ111854BK"
+        },
+        {
+            "lesson": "INZ005201L",
+            "name": "Wytwarzanie oprogramowania w środowisku .NET",
+            "hours": 2,
+            "module": "INZ111854BK"
+        },
+        {
+            "lesson": "INZ005200L",
+            "name": "Programowanie systemów webowych",
+            "hours": 2,
+            "module": "INZ111854BK"
+        },
+        {
+            "lesson": "INZ005200W",
+            "name": "Programowanie systemów webowych",
+            "hours": 2,
+            "module": "INZ111854BK"
+        },
+        {
+            "lesson": "INZ005205W",
+            "name": "Języki baz danych",
+            "hours": 1,
+            "module": "INZ111855BK"
+        },
+        {
+            "lesson": "INZ005203P",
+            "name": "Inżynieria systemów baz danych",
+            "hours": 2,
+            "module": "INZ111855BK"
+        },
+        {
+            "lesson": "INZ005204P",
+            "name": "Baza danych Oracle-programowanie",
+            "hours": 2,
+            "module": "INZ111855BK"
+        },
+        {
+            "lesson": "INZ005205P",
+            "name": "Języki baz danych",
+            "hours": 2,
+            "module": "INZ111855BK"
+        },
+        {
+            "lesson": "INZ005206W",
+            "name": "Projektowanie baz danych",
+            "hours": 1,
+            "module": "INZ111855BK"
+        },
+        {
+            "lesson": "INZ005203W",
+            "name": "Inżynieria systemów baz danych",
+            "hours": 1,
+            "module": "INZ111855BK"
+        },
+        {
+            "lesson": "INZ005204W",
+            "name": "Baza danych Oracle-programowanie",
+            "hours": 1,
+            "module": "INZ111855BK"
+        },
+        {
+            "lesson": "INZ005206P",
+            "name": "Projektowanie baz danych",
+            "hours": 2,
+            "module": "INZ111855BK"
+        },
+        {
+            "lesson": "INZ005209W",
+            "name": "Wspomaganie zarządzania projektami informatycznymi",
+            "hours": 1,
+            "module": "INZ111856BK"
+        },
+        {
+            "lesson": "INZ005208W",
+            "name": "Procesowe zarządzanie projektem informatycznym-DIP",
+            "hours": 1,
+            "module": "INZ111856BK"
+        },
+        {
+            "lesson": "INZ005207W",
+            "name": "Wprowadzenie do zarządzania projektami informatycznymi",
+            "hours": 1,
+            "module": "INZ111856BK"
+        },
+        {
+            "lesson": "INZ005207L",
+            "name": "Wprowadzenie do zarządzania projektami informatycznymi",
+            "hours": 2,
+            "module": "INZ111856BK"
+        },
+        {
+            "lesson": "INZ005209L",
+            "name": "Wspomaganie zarządzania projektami informatycznymi",
+            "hours": 2,
+            "module": "INZ111856BK"
+        },
+        {
+            "lesson": "INZ005208L",
+            "name": "Procesowe zarządzanie projektem informatycznym-DIP",
+            "hours": 2,
+            "module": "INZ111856BK"
+        }
+    ],
+    "modules": [
+        {
+            "module": "INZ003541BK",
+            "name": "Moduł M_2",
+            "same": true,
+            "hoursW": 2,
+            "hoursL": 2
+        },
+        {
+            "module": "INZ111854BK",
+            "name": "Moduł M_1",
+            "same": true,
+            "hoursW": 2,
+            "hoursL": 2
+        },
+        {
+            "module": "INZ111855BK",
+            "name": "Moduł M_3",
+            "same": true,
+            "hoursW": 1,
+            "hoursP": 2
+        },
+        {
+            "module": "INZ111856BK",
+            "name": "Moduł M_4",
+            "same": true,
+            "hoursW": 1,
+            "hoursL": 2
+        }
+    ],
+    "timetable": [
+        {
+            "lesson": "INZ005209L",
+            "code": "Z02-62a",
+            "teacher": "Dr hab. inż. Bogdan Trawiński",
+            "building": "A-1",
+            "classroom": "248",
+            "start_hour": "7:30",
+            "finish_hour": "9:00",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005206P",
+            "code": "Z02-56a",
+            "teacher": "Prof. dr hab. inż. Ngoc Thanh Nguyen",
+            "building": "C-6",
+            "classroom": "128",
+            "start_hour": "7:30",
+            "finish_hour": "9:00",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005204P",
+            "code": "Z02-54b",
+            "teacher": "Dr inż Zbigniew Staszak",
+            "building": "D-2",
+            "classroom": "127a",
+            "start_hour": "7:30",
+            "finish_hour": "9:00",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005207W",
+            "code": "Z02-59a",
+            "teacher": "Dr inż Iwona Dubielewicz",
+            "building": "C-3",
+            "classroom": "22",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Monday",
+            "week": "O"
+        },
+        {
+            "lesson": "INZ005206W",
+            "code": "Z02-57a",
+            "teacher": "Prof. dr hab. inż. Ngoc Thanh Nguyen",
+            "building": "C-13",
+            "classroom": "1.30",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Monday",
+            "week": "E"
+        },
+        {
+            "lesson": "INZ005209W",
+            "code": "Z02-63a",
+            "teacher": "Dr hab. inż. Bogdan Trawiński",
+            "building": "C-13",
+            "classroom": "1.30",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Monday",
+            "week": "O"
+        },
+        {
+            "lesson": "INZ005203W",
+            "code": "Z02-53a",
+            "teacher": "Dr hab. Zygmunt Mazur",
+            "building": "C-3",
+            "classroom": "22",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Monday",
+            "week": "E"
+        },
+        {
+            "lesson": "INZ005208W",
+            "code": "Z02-61a",
+            "teacher": "Dr inż. Kazimierz Frączkowski",
+            "building": "C-7",
+            "classroom": "201",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Monday",
+            "week": "O"
+        },
+        {
+            "lesson": "INZ005204W",
+            "code": "Z02-55a",
+            "teacher": "Dr inż. Zbigniew Staszak",
+            "building": "C-7",
+            "classroom": "201",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Monday",
+            "week": "E"
+        },
+        {
+            "lesson": "INZ005206P",
+            "code": "Z02-56b",
+            "teacher": "Dr inż. Grzegorz Popek",
+            "building": "C-6",
+            "classroom": "128",
+            "start_hour": "11:15",
+            "finish_hour": "13:00",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005209L",
+            "code": "Z02-62b",
+            "teacher": "Dr hab. inż. Bogdan Trawiński",
+            "building": "A-1",
+            "classroom": "248",
+            "start_hour": "11:15",
+            "finish_hour": "13:00",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005203P",
+            "code": "Z02-52a",
+            "teacher": "Mgr Hanna Mazur",
+            "building": "D-2",
+            "classroom": "107b",
+            "start_hour": "11:15",
+            "finish_hour": "13:00",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560L",
+            "code": "Z02-41h",
+            "teacher": "",
+            "building": "C-6",
+            "classroom": "129",
+            "start_hour": "11:15",
+            "finish_hour": "13:00",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005204P",
+            "code": "Z02-54a",
+            "teacher": "Dr inż. Zbigniew Staszak",
+            "building": "D-2",
+            "classroom": "127a",
+            "start_hour": "11:15",
+            "finish_hour": "13:00",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005208L",
+            "code": "Z02-60c",
+            "teacher": "Dr inż. Kazimierz Frączkowski",
+            "building": "D-2",
+            "classroom": "127b",
+            "start_hour": "11:15",
+            "finish_hour": "13:00",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003561W",
+            "code": "Z02-45a",
+            "teacher": "",
+            "building": "C-13",
+            "classroom": "1.30",
+            "start_hour": "13:15",
+            "finish_hour": "15:00",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560L",
+            "code": "Z02-41j",
+            "teacher": "",
+            "building": "C-6",
+            "classroom": "129",
+            "start_hour": "13:15",
+            "finish_hour": "15:00",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005203P",
+            "code": "Z02-52f",
+            "teacher": "Mgr Hanna Mazur",
+            "building": "D-2",
+            "classroom": "107b",
+            "start_hour": "13:15",
+            "finish_hour": "15:00",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005208L",
+            "code": "Z02-60b",
+            "teacher": "Dr inż. Kazimierz Frączkowski",
+            "building": "D-2",
+            "classroom": "127b",
+            "start_hour": "13:15",
+            "finish_hour": "15:00",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003561L",
+            "code": "Z02-44q",
+            "teacher": "",
+            "building": "D-2",
+            "classroom": "107a",
+            "start_hour": "13:15",
+            "finish_hour": "15:00",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005202L",
+            "code": "Z02-50a",
+            "teacher": "Mgr inż. Małgorzata Sadowska",
+            "building": "C-6",
+            "classroom": "130",
+            "start_hour": "15:15",
+            "finish_hour": "16:55",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003561L",
+            "code": "Z02-44d",
+            "teacher": "",
+            "building": "B-1",
+            "classroom": "410",
+            "start_hour": "15:15",
+            "finish_hour": "16:55",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005200L",
+            "code": "Z02-46g",
+            "teacher": "Dr inż. Rafał Kern",
+            "building": "D-2",
+            "classroom": "127c",
+            "start_hour": "15:15",
+            "finish_hour": "16:55",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005203P",
+            "code": "Z02-52b",
+            "teacher": "Mgr Hanna Mazur",
+            "building": "D-2",
+            "classroom": "107b",
+            "start_hour": "15:15",
+            "finish_hour": "16:55",
+            "day": "Monday",
+            "week": "A"
+
+        },
+        {
+            "lesson": "INZ003560L",
+            "code": "Z02-41i",
+            "teacher": "",
+            "building": "C-6",
+            "classroom": "129",
+            "start_hour": "15:15",
+            "finish_hour": "16:55",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005208L",
+            "code": "Z02-60a",
+            "teacher": "Dr inż. Kazimierz Frączkowski",
+            "building": "D-2",
+            "classroom": "127b",
+            "start_hour": "15:15",
+            "finish_hour": "16:55",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005201L",
+            "code": "Z02-48f",
+            "teacher": "",
+            "building": "D-2",
+            "classroom": "107a",
+            "start_hour": "15:15",
+            "finish_hour": "16:55",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005202L",
+            "code": "Z02-50b",
+            "teacher": "Mgr inż. Mateusz Magda",
+            "building": "C-6",
+            "classroom": "130",
+            "start_hour": "17:05",
+            "finish_hour": "18:45",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003561L",
+            "code": "Z02-44e",
+            "teacher": "",
+            "building": "B-1",
+            "classroom": "410",
+            "start_hour": "17:05",
+            "finish_hour": "18:45",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005200L",
+            "code": "Z02-46h",
+            "teacher": "Dr inż. Rafał Kern",
+            "building": "D-2",
+            "classroom": "127c",
+            "start_hour": "17:05",
+            "finish_hour": "18:45",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003561L",
+            "code": "Z02-44j",
+            "teacher": "Dr inż. Anita Walkowiak",
+            "building": "D-2",
+            "classroom": "333b",
+            "start_hour": "17:05",
+            "finish_hour": "18:45",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005207L",
+            "code": "Z02-58f",
+            "teacher": "Mgr Hanna Mazur",
+            "building": "D-2",
+            "classroom": "107b",
+            "start_hour": "17:05",
+            "finish_hour": "18:45",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560L",
+            "code": "Z02-41o",
+            "teacher": "",
+            "building": "C-6",
+            "classroom": "129",
+            "start_hour": "17:05",
+            "finish_hour": "18:45",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005201L",
+            "code": "Z02-48g",
+            "teacher": "",
+            "building": "D-2",
+            "classroom": "107a",
+            "start_hour": "17:05",
+            "finish_hour": "18:45",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005232L",
+            "code": "Z02-64f",
+            "teacher": "Dr inż. Jerzy Sas",
+            "building": "D-2",
+            "classroom": "127a",
+            "start_hour": "17:05",
+            "finish_hour": "18:45",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005202L",
+            "code": "Z02-50c",
+            "teacher": "Mgr inż. Mateusz Magda",
+            "building": "C-6",
+            "classroom": "130",
+            "start_hour": "18:55",
+            "finish_hour": "20:35",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003561L",
+            "code": "Z02-44f",
+            "teacher": "",
+            "building": "B-1",
+            "classroom": "410",
+            "start_hour": "18:55",
+            "finish_hour": "20:35",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005200L",
+            "code": "Z02-46i",
+            "teacher": "Dr inż. Rafał Kern",
+            "building": "D-2",
+            "classroom": "127c",
+            "start_hour": "18:55",
+            "finish_hour": "20:35",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005207L",
+            "code": "Z02-58e",
+            "teacher": "Mgr Hanna Mazur",
+            "building": "D-2",
+            "classroom": "107b",
+            "start_hour": "18:55",
+            "finish_hour": "20:35",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560L",
+            "code": "Z02-41p",
+            "teacher": "",
+            "building": "C-6",
+            "classroom": "129",
+            "start_hour": "18:55",
+            "finish_hour": "20:35",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005201L",
+            "code": "Z02-48h",
+            "teacher": "",
+            "building": "D-2",
+            "classroom": "107a",
+            "start_hour": "18:55",
+            "finish_hour": "20:35",
+            "day": "Monday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560L",
+            "code": "Z02-41c",
+            "teacher": "Dr inż. Magdalena Turowska",
+            "building": "C-6",
+            "classroom": "129",
+            "start_hour": "7:30",
+            "finish_hour": "9:00",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005200L",
+            "code": "Z02-46c",
+            "teacher": "",
+            "building": "D-2",
+            "classroom": "127c",
+            "start_hour": "7:30",
+            "finish_hour": "9:00",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005202L",
+            "code": "Z02-50d",
+            "teacher": "Dr inż. Zbigniew Telec",
+            "building": "D-2",
+            "classroom": "333c",
+            "start_hour": "7:30",
+            "finish_hour": "9:00",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003561L",
+            "code": "Z02-44g",
+            "teacher": "",
+            "building": "B-1",
+            "classroom": "408",
+            "start_hour": "7:30",
+            "finish_hour": "9:00",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003541L",
+            "code": "Z02-39c",
+            "teacher": "Dr hab. inż. Kazimierz Choroś",
+            "building": "A-1",
+            "classroom": "248",
+            "start_hour": "7:30",
+            "finish_hour": "9:00",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005201L",
+            "code": "Z02-48c",
+            "teacher": "",
+            "building": "D-2",
+            "classroom": "107a",
+            "start_hour": "7:30",
+            "finish_hour": "9:00",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005204P",
+            "code": "Z02-54c",
+            "teacher": "Dr inż. Zbigniew Staszak",
+            "building": "D-2",
+            "classroom": "127a",
+            "start_hour": "7:30",
+            "finish_hour": "9:00",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560L",
+            "code": "Z02-41g",
+            "teacher": "Dr inż. Magdalena Turowska",
+            "building": "C-6",
+            "classroom": "129",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005200L",
+            "code": "Z02-46d",
+            "teacher": "",
+            "building": "D-2",
+            "classroom": "127c",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42i",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Tuesday",
+            "week": "O"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42j",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Tuesday",
+            "week": "E"
+        },
+        {
+            "lesson": "INZ003561L",
+            "code": "Z02-44h",
+            "teacher": "",
+            "building": "B-1",
+            "classroom": "408",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005203P",
+            "code": "Z02-52c",
+            "teacher": "Mgr Hanna Mazur",
+            "building": "D-2",
+            "classroom": "107b",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005201L",
+            "code": "Z02-48d",
+            "teacher": "",
+            "building": "D-2",
+            "classroom": "107a",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005204P",
+            "code": "Z02-54d",
+            "teacher": "Dr inż Zbigniew Staszak",
+            "building": "D-2",
+            "classroom": "127a",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42a",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "11:15",
+            "finish_hour": "13:00",
+            "day": "Tuesday",
+            "week": "O"
+        },
+        {
+
+            "lesson": "INZ003560P",
+            "code": "Z02-42b",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "11:15",
+            "finish_hour": "13:00",
+            "day": "Tuesday",
+            "week": "E"
+        },
+        {
+            "lesson": "INZ005200L",
+            "code": "Z02-46e",
+            "teacher": "",
+            "building": "D-2",
+            "classroom": "127c",
+            "start_hour": "11:15",
+            "finish_hour": "13:00",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003561L",
+            "code": "Z02-44i",
+            "teacher": "",
+            "building": "B-1",
+            "classroom": "408",
+            "start_hour": "11:15",
+            "finish_hour": "13:00",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005203P",
+            "code": "Z02-52d",
+            "teacher": "Mgr Hanna Mazur",
+            "building": "D-2",
+            "classroom": "107b",
+            "start_hour": "11:15",
+            "finish_hour": "13:00",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003541L",
+            "code": "Z02-39e",
+            "teacher": "Dr inż. Elżbieta Kukla",
+            "building": "A-1",
+            "classroom": "248",
+            "start_hour": "11:15",
+            "finish_hour": "13:00",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005201L",
+            "code": "Z02-48e",
+            "teacher": "",
+            "building": "D-2",
+            "classroom": "107a",
+            "start_hour": "11:15",
+            "finish_hour": "13:00",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005204P",
+            "code": "Z02-54e",
+            "teacher": "Dr inż. Zbigniew Staszak",
+            "building": "D-2",
+            "classroom": "127a",
+            "start_hour": "11:15",
+            "finish_hour": "13:00",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42e",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "13:15",
+            "finish_hour": "15:00",
+            "day": "Tuesday",
+            "week": "O"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42f",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "13:15",
+            "finish_hour": "15:00",
+            "day": "Tuesday",
+            "week": "E"
+        },
+        {
+            "lesson": "INZ005200L",
+            "code": "Z02-46f",
+            "teacher": "",
+            "building": "D-2",
+            "classroom": "127c",
+            "start_hour": "13:15",
+            "finish_hour": "15:00",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005203P",
+            "code": "Z02-52e",
+            "teacher": "Mgr Hanna Mazur",
+            "building": "D-2",
+            "classroom": "107b",
+            "start_hour": "13:15",
+            "finish_hour": "15:00",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003541L",
+            "code": "Z02-39f",
+            "teacher": "Dr inż. Elżbieta Kukla",
+            "building": "A-1",
+            "classroom": "248",
+            "start_hour": "13:15",
+            "finish_hour": "15:00",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003561L",
+            "code": "Z02-44m",
+            "teacher": "",
+            "building": "B-1",
+            "classroom": "410",
+            "start_hour": "13:15",
+            "finish_hour": "15:00",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005204P",
+            "code": "Z02-54f",
+            "teacher": "Dr inż. Zbigniew Staszak",
+            "building": "D-2",
+            "classroom": "127a",
+            "start_hour": "13:15",
+            "finish_hour": "15:00",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005200L",
+            "code": "Z02-46a",
+            "teacher": "",
+            "building": "D-2",
+            "classroom": "127c",
+            "start_hour": "15:15",
+            "finish_hour": "16:55",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005209L",
+            "code": "Z02-62e",
+            "teacher": "Dr inż. Zbigniew Telec",
+            "building": "A-1",
+            "classroom": "248",
+            "start_hour": "15:15",
+            "finish_hour": "16:55",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42u",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "15:15",
+            "finish_hour": "16:55",
+            "day": "Tuesday",
+            "week": "O"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42v",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "15:15",
+            "finish_hour": "16:55",
+            "day": "Tuesday",
+            "week": "E"
+        },
+        {
+            "lesson": "INZ005209L",
+            "code": "Z02-62f",
+            "teacher": "Dr inż. Zbigniew Telec",
+            "building": "A-1",
+            "classroom": "248",
+            "start_hour": "17:05",
+            "finish_hour": "18:45",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005207L",
+            "code": "Z02-58d",
+            "teacher": "Mgr Hanna Mazur",
+            "building": "D-2",
+            "classroom": "107b",
+            "start_hour": "17:05",
+            "finish_hour": "18:45",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003561L",
+            "code": "Z02-44k",
+            "teacher": "",
+            "building": "B-1",
+            "classroom": "410",
+            "start_hour": "17:05",
+            "finish_hour": "18:45",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560L",
+            "code": "Z02-41q",
+            "teacher": "",
+            "building": "C-6",
+            "classroom": "129",
+            "start_hour": "17:05",
+            "finish_hour": "18:45",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003561L",
+            "code": "Z02-44l",
+            "teacher": "",
+            "building": "B-1",
+            "classroom": "410",
+            "start_hour": "18:55",
+            "finish_hour": "20:35",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560L",
+            "code": "Z02-41r",
+            "teacher": "",
+            "building": "C-6",
+            "classroom": "129",
+            "start_hour": "18:55",
+            "finish_hour": "20:35",
+            "day": "Tuesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560L",
+            "code": "Z02-41f",
+            "teacher": "",
+            "building": "C-6",
+            "classroom": "129",
+            "start_hour": "7:30",
+            "finish_hour": "9:00",
+            "day": "Wednesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560W",
+            "code": "Z02-43a",
+            "teacher": "",
+            "building": "A-1",
+            "classroom": "329",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Wednesday",
+            "week": "O"
+        },
+        {
+            "lesson": "INZ003560W",
+            "code": "Z02-43b",
+            "teacher": "",
+            "building": "A-1",
+            "classroom": "329",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Wednesday",
+            "week": "E"
+        },
+        {
+            "lesson": "INZ003541L",
+            "code": "Z02-39d",
+            "teacher": "Dr hab. inż. Kazimierz Choroś",
+            "building": "A-1",
+            "classroom": "248",
+            "start_hour": "11:15",
+            "finish_hour": "13:00",
+            "day": "Wednesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560L",
+            "code": "Z02-41e",
+            "teacher": "",
+            "building": "C-6",
+            "classroom": "129",
+            "start_hour": "11:15",
+            "finish_hour": "13:00",
+            "day": "Wednesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42m",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "11:15",
+            "finish_hour": "13:00",
+            "day": "Wednesday",
+            "week": "O"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42n",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "11:15",
+            "finish_hour": "13:00",
+            "day": "Wednesday",
+            "week": "E"
+        },
+        {
+            "lesson": "INZ003559W",
+            "code": "Z02-40b",
+            "teacher": "",
+            "building": "C-13",
+            "classroom": "1.30",
+            "start_hour": "11:15",
+            "finish_hour": "13:00",
+            "day": "Wednesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005200W",
+            "code": "Z02-47a",
+            "teacher": "",
+            "building": "C-13",
+            "classroom": "1.30",
+            "start_hour": "13:15",
+            "finish_hour": "15:00",
+            "day": "Wednesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005201W",
+            "code": "Z02-49a",
+            "teacher": "",
+            "building": "A-1",
+            "classroom": "329",
+            "start_hour": "13:15",
+            "finish_hour": "15:00",
+            "day": "Wednesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560L",
+            "code": "Z02-41a",
+            "teacher": "",
+            "building": "C-6",
+            "classroom": "129",
+            "start_hour": "15:15",
+            "finish_hour": "16:55",
+            "day": "Wednesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005207L",
+            "code": "Z02-58a",
+            "teacher": "Mgr Hanna Mazur",
+            "building": "D-2",
+            "classroom": "107b",
+            "start_hour": "15:15",
+            "finish_hour": "16:55",
+            "day": "Wednesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003561L",
+            "code": "Z02-44n",
+            "teacher": "",
+            "building": "B-4",
+            "classroom": "445",
+            "start_hour": "15:15",
+            "finish_hour": "16:55",
+            "day": "Wednesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42w",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "15:15",
+            "finish_hour": "16:55",
+            "day": "Wednesday",
+            "week": "O"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42x",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "15:15",
+            "finish_hour": "16:55",
+            "day": "Wednesday",
+            "week": "E"
+        },
+        {
+            "lesson": "INZ005208L",
+            "code": "Z02-60e",
+            "teacher": "Dr inż. Kazimierz Frączkowski",
+            "building": "D-2",
+            "classroom": "127b",
+            "start_hour": "15:15",
+            "finish_hour": "16:55",
+            "day": "Wednesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005200L",
+            "code": "Z02-46b",
+            "teacher": "",
+            "building": "D-2",
+            "classroom": "127c",
+            "start_hour": "17:05",
+            "finish_hour": "18:45",
+            "day": "Wednesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560L",
+            "code": "Z02-41b",
+            "teacher": "",
+            "building": "C-6",
+            "classroom": "129",
+            "start_hour": "17:05",
+            "finish_hour": "18:45",
+            "day": "Wednesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42k",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "17:05",
+            "finish_hour": "18:45",
+            "day": "Wednesday",
+            "week": "O"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42l",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "17:05",
+            "finish_hour": "18:45",
+            "day": "Wednesday",
+            "week": "E"
+        },
+        {
+            "lesson": "INZ005207L",
+            "code": "Z02-58c",
+            "teacher": "Mgr Hanna Mazur",
+            "building": "D-2",
+            "classroom": "107b",
+            "start_hour": "17:05",
+            "finish_hour": "18:45",
+            "day": "Wednesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005208L",
+            "code": "Z02-60f",
+            "teacher": "Dr inż. Kazimierz Frączkowski",
+            "building": "D-2",
+            "classroom": "127b",
+            "start_hour": "17:05",
+            "finish_hour": "18:45",
+            "day": "Wednesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42c",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "18:55",
+            "finish_hour": "20:35",
+            "day": "Wednesday",
+            "week": "O"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42d",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "18:55",
+            "finish_hour": "20:35",
+            "day": "Wednesday",
+            "week": "E"
+        },
+        {
+            "lesson": "INZ003560L",
+            "code": "Z02-41d",
+            "teacher": "",
+            "building": "C-6",
+            "classroom": "129",
+            "start_hour": "18:55",
+            "finish_hour": "20:35",
+            "day": "Wednesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005207L",
+            "code": "Z02-58b",
+            "teacher": "Mgr Hanna Mazur",
+            "building": "D-2",
+            "classroom": "107b",
+            "start_hour": "18:55",
+            "finish_hour": "20:35",
+            "day": "Wednesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005200L",
+            "code": "Z02-46j",
+            "teacher": "",
+            "building": "D-2",
+            "classroom": "127c",
+            "start_hour": "18:55",
+            "finish_hour": "20:35",
+            "day": "Wednesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005208L",
+            "code": "Z02-60d",
+            "teacher": "Dr inż. Kazimierz Frączkowski",
+            "building": "D-2",
+            "classroom": "127b",
+            "start_hour": "18:55",
+            "finish_hour": "20:35",
+            "day": "Wednesday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005209L",
+            "code": "Z02-62c",
+            "teacher": "Dr inż. Zbigniew Telec",
+            "building": "A-1",
+            "classroom": "248",
+            "start_hour": "7:30",
+            "finish_hour": "9:00",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005201L",
+            "code": "Z02-48a",
+            "teacher": "",
+            "building": "D-2",
+            "classroom": "127b",
+            "start_hour": "7:30",
+            "finish_hour": "9:00",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42s",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "7:30",
+            "finish_hour": "9:00",
+            "day": "Thursday",
+            "week": "O"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42t",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "7:30",
+            "finish_hour": "9:00",
+            "day": "Thursday",
+            "week": "E"
+        },
+        {
+            "lesson": "INZ005232L",
+            "code": "Z02-64c",
+            "teacher": "Dr inż. Jerzy Sas",
+            "building": "D-2",
+            "classroom": "127a",
+            "start_hour": "7:30",
+            "finish_hour": "9:00",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003561L",
+            "code": "Z02-44p",
+            "teacher": "Dr inż. Anita Walkowiak",
+            "building": "D-2",
+            "classroom": "107a",
+            "start_hour": "7:30",
+            "finish_hour": "9:00",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003561L",
+            "code": "Z02-44c",
+            "teacher": "",
+            "building": "D-2",
+            "classroom": "107b",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005209L",
+            "code": "Z02-62d",
+            "teacher": "Dr inż. Zbigniew Telec",
+            "building": "A-1",
+            "classroom": "248",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005201L",
+            "code": "Z02-48b",
+            "teacher": "",
+            "building": "D-2",
+            "classroom": "127b",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003561L",
+            "code": "Z02-44o",
+            "teacher": "Dr inż. Anita Walkowiak",
+            "building": "D-2",
+            "classroom": "107a",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005232L",
+            "code": "Z02-64d",
+            "teacher": "Dr inż. Jerzy Sas",
+            "building": "D-2",
+            "classroom": "127a",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42aa",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Thursday",
+            "week": "O"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42ab",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "9:15",
+            "finish_hour": "11:15",
+            "day": "Thursday",
+            "week": "E"
+        },
+        {
+            "lesson": "INZ003559W",
+            "code": "Z02-40a",
+            "teacher": "",
+            "building": "C-13",
+            "classroom": "1.30",
+            "start_hour": "11:15",
+            "finish_hour": "13:00",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003561W",
+            "code": "Z02-45b",
+            "teacher": "",
+            "building": "B-4",
+            "classroom": "409",
+            "start_hour": "11:15",
+            "finish_hour": "13:00",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005202W",
+            "code": "Z02-51a",
+            "teacher": "Dr inż. Krzysztof Waśko",
+            "building": "B-4",
+            "classroom": "409",
+            "start_hour": "13:15",
+            "finish_hour": "15:00",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003541W",
+            "code": "Z02-66a",
+            "teacher": "Dr inż. Elżbieta Kukla",
+            "building": "C-13",
+            "classroom": "1.30",
+            "start_hour": "13:15",
+            "finish_hour": "15:00",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005232W",
+            "code": "Z02-65a",
+            "teacher": "Dr inż. Jerzy Sas",
+            "building": "C-7",
+            "classroom": "201",
+            "start_hour": "13:15",
+            "finish_hour": "15:00",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005206P",
+            "code": "Z02-56e",
+            "teacher": "Dr inż. Grzegorz Popek",
+            "building": "C-6",
+            "classroom": "128",
+            "start_hour": "15:15",
+            "finish_hour": "16:55",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003541L",
+            "code": "Z02-39a",
+            "teacher": "Dr inż. Marek Kopel",
+            "building": "A-1",
+            "classroom": "248",
+            "start_hour": "15:15",
+            "finish_hour": "16:55",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005232L",
+            "code": "Z02-64a",
+            "teacher": "Dr inż. Martin Tabakow",
+            "building": "D-2",
+            "classroom": "127a",
+            "start_hour": "15:15",
+            "finish_hour": "16:55",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003561L",
+            "code": "Z02-44r",
+            "teacher": "",
+            "building": "B-1",
+            "classroom": "410",
+            "start_hour": "15:15",
+            "finish_hour": "16:55",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005202L",
+            "code": "Z02-50e",
+            "teacher": "Dr inż. Zbigniew Telec",
+            "building": "C-6",
+            "classroom": "129",
+            "start_hour": "17:05",
+            "finish_hour": "18:45",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003561L",
+            "code": "Z02-44b",
+            "teacher": "",
+            "building": "B-1",
+            "classroom": "410",
+            "start_hour": "17:05",
+            "finish_hour": "18:45",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005206P",
+            "code": "Z02-56d",
+            "teacher": "Dr inż. Grzegorz Popek",
+            "building": "C-6",
+            "classroom": "128",
+            "start_hour": "17:05",
+            "finish_hour": "18:45",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003541L",
+            "code": "Z02-39b",
+            "teacher": "Dr inż. Marek Kopel",
+            "building": "A-1",
+            "classroom": "248",
+            "start_hour": "17:05",
+            "finish_hour": "18:45",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005232L",
+            "code": "Z02-64b",
+            "teacher": "Dr inż. Martin Tabakow",
+            "building": "D-2",
+            "classroom": "127a",
+            "start_hour": "17:05",
+            "finish_hour": "18:45",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003561L",
+            "code": "Z02-44a",
+            "teacher": "",
+            "building": "B-1",
+            "classroom": "410",
+            "start_hour": "18:55",
+            "finish_hour": "20:35",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005206P",
+            "code": "Z02-56c",
+            "teacher": "Dr inż. Grzegorz Popek",
+            "building": "C-6",
+            "classroom": "128",
+            "start_hour": "18:55",
+            "finish_hour": "20:35",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005202L",
+            "code": "Z02-50f",
+            "teacher": "Dr inż. Zbigniew Telec",
+            "building": "C-6",
+            "classroom": "129",
+            "start_hour": "18:55",
+            "finish_hour": "20:35",
+            "day": "Thursday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42o",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "7:30",
+            "finish_hour": "9:00",
+            "day": "Friday",
+            "week": "O"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42p",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "7:30",
+            "finish_hour": "9:00",
+            "day": "Friday",
+            "week": "E"
+        },
+        {
+            "lesson": "INZ003560L",
+            "code": "Z02-41k",
+            "teacher": "",
+            "building": "C-6",
+            "classroom": "129",
+            "start_hour": "7:30",
+            "finish_hour": "9:00",
+            "day": "Friday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ005232L",
+            "code": "Z02-64e",
+            "teacher": "Dr inż. Jerzy Sas",
+            "building": "D-2",
+            "classroom": "127a",
+            "start_hour": "7:30",
+            "finish_hour": "9:00",
+            "day": "Friday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560L",
+            "code": "Z02-41l",
+            "teacher": "",
+            "building": "C-6",
+            "classroom": "129",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Friday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42y",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Friday",
+            "week": "O"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42z",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "9:15",
+            "finish_hour": "11:00",
+            "day": "Friday",
+            "week": "E"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42g",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "11:15",
+            "finish_hour": "13:00",
+            "day": "Friday",
+            "week": "O"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42h",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "11:15",
+            "finish_hour": "13:00",
+            "day": "Friday",
+            "week": "E"
+        },
+        {
+            "lesson": "INZ003560L",
+            "code": "Z02-41m",
+            "teacher": "",
+            "building": "C-6",
+            "classroom": "129",
+            "start_hour": "11:15",
+            "finish_hour": "13:00",
+            "day": "Friday",
+            "week": "A"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42q",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "13:15",
+            "finish_hour": "15:00",
+            "day": "Friday",
+            "week": "O"
+        },
+        {
+            "lesson": "INZ003560P",
+            "code": "Z02-42r",
+            "teacher": "",
+            "building": "C-3",
+            "classroom": "0.15a",
+            "start_hour": "13:15",
+            "finish_hour": "15:00",
+            "day": "Friday",
+            "week": "E"
+        },
+        {
+            "lesson": "INZ003560L",
+            "code": "Z02-41n",
+            "teacher": "",
+            "building": "C-6",
+            "classroom": "129",
+            "start_hour": "13:15",
+            "finish_hour": "15:00",
+            "day": "Friday",
+            "week": "A"
+        }
+    ]
+}

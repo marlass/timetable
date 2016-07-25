@@ -1,0 +1,25 @@
+{
+  "name": "timetable",
+  "version": "1.0.0",
+  "description": "App for searching the most optimal timetable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marlass/timetable.git"
+  },
+  "author": "Marcin Lasak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marlass/timetable/issues"
+  },
+  "homepage": "https://github.com/marlass/timetable#readme",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "js-combinatorics": "^0.5.2",
+    "method-override": "^2.3.6"
+  }
+}
