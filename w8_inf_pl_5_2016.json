@@ -5,6 +5,60 @@
     "faculty": "WIZ",
     "specialization": "Computer Science",
     "language": "pl",
+    "breaks": [
+        {
+            "start_hour": "8:00",
+            "finish_hour": "8:15"
+        },
+        {
+            "start_hour": "9:00",
+            "finish_hour": "9:15"
+        },
+        {
+            "start_hour": "10:00",
+            "finish_hour": "10:15"
+        },
+        {
+            "start_hour": "11:00",
+            "finish_hour": "11:15"
+        },
+        {
+            "start_hour": "12:00",
+            "finish_hour": "12:15"
+        },
+        {
+            "start_hour": "13:00",
+            "finish_hour": "13:15"
+        },
+        {
+            "start_hour": "14:00",
+            "finish_hour": "14:15"
+        },
+        {
+            "start_hour": "15:00",
+            "finish_hour": "15:15"
+        },
+        {
+            "start_hour": "16:00",
+            "finish_hour": "16:10"
+        },
+        {
+            "start_hour": "16:55",
+            "finish_hour": "17:05"
+        },
+        {
+            "start_hour": "17:50",
+            "finish_hour": "18:00"
+        },
+        {
+            "start_hour": "18:45",
+            "finish_hour": "18:55"
+        },
+        {
+            "start_hour": "19:40",
+            "finish_hour": "19:50"
+        }
+    ],
     "lessons": [
         {
             "lesson": "INZ003559W",
