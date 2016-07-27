@@ -13,8 +13,14 @@ fs.readFile('./w8_inf_pl_5_2016.json', (err, data) => {
     let lessonsGroups = getLessonsGroups(timetable.lessons, timetable.timetable);
     let modulesGroups = getModulesGroups(timetable.lessons, lessonsGroups);
     let modulesPowerSets = getModulesCombinations(modulesGroups, timetable);
-    //console.log(modulesGroups);
-    console.log(modulesPowerSets);
+    let toProduct = [];
+    for (let items in modulesPowerSets){
+        toProduct.push( modulesPowerSets[items] );
+    }
+    
+    for (let p of product.apply(this,toProduct)) {
+    console.log(p);
+    }
 });
 
 function getLessonsGroups(lessonsList, timetable) {
@@ -49,53 +55,41 @@ function getModulesGroups(lessonsList, lessonsGroups) {
     return modulesGroups;
 }
 
-function getPossibleLessonCombinations(set, timetable) {
-    let array = [[]],
-        sub_set = function (n, m) {
-            let result = [];
+function getPossibleLessonCombinations(list, timetable){
+    let set = [],
+        listSize = list.length,
+        combinationsCount = Math.pow(2,listSize),
+        combination = [],
+        valid = 0;;
 
-            if (m == 1) {
-                result.push([set[n]]);
-            } else {
-                for (let i = n, length = set.length; i < length - 1; i += 1) {
-                    let subset = sub_set(i + 1, m - 1);
-                    for (let j = 0; j < subset.length; j += 1) {
-                        let new_set = subset[j];
-                        new_set.push(set[n]);
-                        result.push(new_set);
-                    }
-                }
-            }
-            return result;
-        };
-
-    let valid = 0;
-    for (let i = 0, length = set.length; i < length; i += 1) {
-        for (let j = 1; j < length + 1; j += 1) {
-            let temp = sub_set(i, j);
-            for (let k = 0; k < temp.length; k += 1) {
-                if (isValidCombination(temp[k], timetable)) {
-                    array.push(temp[k]);
-                    valid++;
-                    console.log('valid: ' + valid + '/' + Math.pow(2, set.length));
-                }
+    for (let i = 1; i < combinationsCount ; i++ ){
+        let combination = [];
+        for (var j=0;j<listSize;j++){
+            if ((i & (1 << j))){
+                combination.push(list[j]);
             }
         }
+        if (isValidCombination(combination,timetable)){
+            set.push(combination);
+            valid++;
+            console.log('valid: '+valid+'/'+combinationsCount);
+        }
+        
     }
-    return array;
-};
+    return set;
+}
 
 function isValidCombination(combination, timetable) {
     if (combination.length > 0) {
         let lesson = timetable.timetable.find(function (el) {
-            return el.code = combination[0];
+            return el.code === combination[0];
         });
         let lessonDefinition = timetable.lessons.find(function (el) {
-            return el.lesson = lesson.lesson;
+            return el.lesson === lesson.lesson;
         });
         if (lessonDefinition.hasOwnProperty("module")) {
             let moduleDefinition = timetable.modules.find(function (el) {
-                return el.module = lessonDefinition.module;
+                return el.module === lessonDefinition.module;
             });
             let requiredHoursW = moduleDefinition.hoursW || 0;
             let requiredHoursC = moduleDefinition.hoursC || 0;
@@ -109,10 +103,10 @@ function isValidCombination(combination, timetable) {
             let actualHoursS = 0;
             for (let i = 0; i < combination.length; i++) {
                 let item = timetable.timetable.find(function (el) {
-                    return el.code = combination[i];
+                    return el.code === combination[i];
                 });
                 let itemLesson = timetable.lessons.find(function (el) {
-                    return el.lesson = item.lesson;
+                    return el.lesson === item.lesson;
                 })
                 let itemType = getItemType(item.lesson);
                 switch (itemType) {
@@ -138,11 +132,18 @@ function isValidCombination(combination, timetable) {
                     actualHoursL > requiredHoursL ||
                     actualHoursP > requiredHoursP ||
                     actualHoursS > requiredHoursS ||
-                    itemLesson.lmodule !== moduleDefinition.module) {
+                    itemLesson.module !== moduleDefinition.module) {
                     return false;
                 } else if (moduleDefinition.same && itemLesson.lesson.slice(0, itemLesson.lesson.length - 1) !== lessonDefinition.lesson.slice(0, lessonDefinition.lesson.length - 1)) {
                     return false;
                 }
+            }
+            if (actualHoursW !== requiredHoursW ||
+                actualHoursC !== requiredHoursC ||
+                actualHoursL !== requiredHoursL ||
+                actualHoursP !== requiredHoursP ||
+                actualHoursS !== requiredHoursS) {
+                return false;
             }
             return true;
         } else {
@@ -150,12 +151,15 @@ function isValidCombination(combination, timetable) {
             let actualHours = 0;
             for (let i = 0; i < combination.length; i++) {
                 let item = timetable.timetable.find(function (el) {
-                    return el.code = combination[i];
+                    return el.code === combination[i];
                 });
                 actualHours += countHours(item, timetable.breaks);
                 if (actualHours > requiredHours || item.lesson !== lessonDefinition.lesson) {
                     return false;
                 }
+            }
+            if (actualHours !== requiredHours) {
+                return false;
             }
             return true;
         }
@@ -173,16 +177,40 @@ function countHours(item, breaks) {
     }
 }
 
-function itemType(code) {
-    code.slice(-1);
+function getItemType(code) {
+    return code.slice(-1);
 }
 
 function getModulesCombinations(modulesGroups, timetable) {
     let modulesPowerSets = [];
+    let i = 0;
     Object.keys(modulesGroups).forEach(function (key) {
+        i++;
+        if (i!==3)
         modulesPowerSets[key] = getPossibleLessonCombinations(modulesGroups[key], timetable);
     });
     return modulesPowerSets;
 }
+
+function *productHelper(lists, prefix = []) {
+  if (lists.length === 0) {
+    yield [];
+  } else {
+    const [head, ...rest] = lists;
+    for (let item of head) {
+      const newPrefix = prefix.concat(item);
+      if (rest.length) {
+        yield *productHelper(rest, newPrefix);
+      } else {
+        yield newPrefix;
+      }
+    }
+  }
+}
+
+function *product(...lists) {
+  yield *productHelper(lists);
+}
+
 
 
