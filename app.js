@@ -6,7 +6,7 @@ sugar.extend();
 
 let timetable;
 
-fs.readFile('./w8_inf_pl_5_2016.json', (err, data) => {
+fs.readFile('./mock.json', (err, data) => {
     if (err) throw err;
     timetable = JSON.parse(data);
 
@@ -17,11 +17,59 @@ fs.readFile('./w8_inf_pl_5_2016.json', (err, data) => {
     for (let items in modulesPowerSets){
         toProduct.push( modulesPowerSets[items] );
     }
+
+    let counter = 0;
+    let valid = 0;
+    let possibleTimetables = [];
     
     for (let p of product.apply(this,toProduct)) {
-    console.log(p);
+        counter++;
+        if (validateTimetable(p, timetable)) {
+            possibleTimetables.push(p);
+            valid++;
+            if (valid % 100000 === 0) {
+                console.log(valid + '/' + counter);
+            }
+        }
     }
 });
+
+function validateTimetable(item, timetable) {
+    let even = [];
+    let odd = [];
+    let valid = true;
+
+    item.forEach(function (item) {
+        let lesson = timetable.timetable.find(function (el) {
+            return el.code === item;
+        });
+        let key = lesson.day+'-'+lesson.start_hour;
+        if (lesson.week === 'O') {
+            if (odd[key]) {
+                valid = false;
+                return false;
+            } else {
+                odd[key] = true;
+            }
+        } else if (lesson.week === 'E') {
+            if (even[key]) {
+                valid = false;
+                return false;
+            } else {
+                even[key] = true;
+            }
+        } else {
+            if (odd[key] || even[key]) {
+                valid = false;
+                return false;
+            } else {
+                odd[key] = true;
+                even[key] = true;
+            }
+        }
+    });
+    return valid;
+}
 
 function getLessonsGroups(lessonsList, timetable) {
     let lessonsGroups = [];
